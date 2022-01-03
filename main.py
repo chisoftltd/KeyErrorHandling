@@ -13,7 +13,8 @@ for post in facebook_posts:
     try:
         total_likes = total_likes + post['Likes']
     except KeyError as error_message:
-        print(f"The error is: {error_message}")
+        # print(f"The error is: {error_message}")
+        pass
     else:
         total_likes = total_likes + 0
 
